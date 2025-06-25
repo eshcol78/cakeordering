@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="cake.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i> Cake Delights</a>
+        <nav class="navbar">
+            <a href="#">home</a>
+            <a href="#">shop</a>
+            <a href="#">about</a>!
+            <a href="#">review</a>
+            <a href="#">blog</a>
+            <a href="#">contact</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="cart-btn" class="fas fa-shopping-cart"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="slide-container">
+            <div class="slide active">
+                <div class="content">
+                    <span>Sweet Treats for Every Occasion</span>
+                    <h3>Upto 50% Off</h3>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+                <div class="img">
+                    <img src="img/download (1).jpg" alt="Chocolate Cake">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="content">
+                    <span>Custom Cakes Made Just for You</span>
+                    <h3>Upto 50% Off</h3>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+                <div class="img">
+                    <img src="img/download (6).jpg" alt="Wedding Cake">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="content">
+                    <span>Freshly Baked Daily</span>
+                    <h3>Upto 50% Off</h3>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+                <div class="img">
+                    <img src="img/download (5).jpg" alt="Cupcakes">
+                </div>
+            </div>
+        </div>
+        <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+        <div id="prev-slide" class="fas fa-angle-left" onclick="prev()"></div>
+    </section>
+
+    <section class="banner-container">
+        <div class="banner">
+            <img src="img/download (2).jpg" alt="Birthday Cakes">
+            <div class="content">
+                <span>Birthday Special</span>
+                <h3>Upto 50% Off</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="img/download (3).jpg" alt="Wedding Cakes">
+            <div class="content">
+                <span>Wedding Collection</span>
+                <h3>Upto 50% Off</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="img/download (4).jpg" alt="Cupcake Special">
+            <div class="content">
+                <span>Cupcake Special</span>
+                <h3>Upto 50% Off</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="heading">
+        <h1>our shop</h1>
+    </div>
+
+    <section class="category">
+        <h1 class="title">our <span>category</span> <a href="#">view all >>></a></h1>
+        <div class="box-container">
+            <a href="#" class="box">
+                <img src="img/cupcake.jpg" alt="Cupcakes">
+                <h3>fresh cupcake</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="img/cookies.jpg" alt="Cookies">
+                <h3>cookies</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="img/Flourless Chocolate Cake.jpg" alt="Flourless Chocolate Cake">
+                <h3>Flourless Chocolate Cake</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="img/fudge cake.jpg" alt="Fudge Cake">
+                <h3>Fudge Cake</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="img/Buttercream Cake.jpg" alt="Buttercream Cake">
+                <h3>Buttercream Cake</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="img/mousse cake.jpg" alt="Mousse Cake">
+                <h3>Mousse Cake</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="img/pistachio cake.jpg" alt="Pistachio Cake">
+                <h3>Pistachio Cake</h3>
+            </a>
+        </div>
+    </section>
+
+    <section class="product">
+        <h1 class="title">our <span>products</span> <a href="#">view all >>></a></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="img/barries citrus fruits apples.jpg" alt="Berry Citrus Cake">
+                </div>
+                <div class="content">
+                    <h3>Berry Citrus Cake</h3>
+                    <div class="price">$19.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="img/product2.jpg" alt="Mellow Cake">
+                </div>
+                <div class="content">
+                    <h3>Mellow Vanilla Cake</h3>
+                    <div class="price">$19.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="img/product3.jpg" alt="Rose Cake">
+                </div>
+                <div class="content">
+                    <h3>Rose Velvet Cake</h3>
+                    <div class="price">$19.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="img/product4.jpg" alt="Strawberry Cake">
+                </div>
+                <div class="content">
+                    <h3>Strawberry Nutella Cake</h3>
+                    <div class="price">$19.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="img/product5.jpg" alt="Matcha Cake">
+                </div>
+                <div class="content">
+                    <h3>Matcha Green Tea Cake</h3>
+                    <div class="price">$19.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="img/product6.jpg" alt="Chocolate Cake">
+                </div>
+                <div class="content">
+                    <h3>Dark Chocolate Cake</h3>
+                    <div class="price">$19.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="heading">
+        <h1>About us</h1>
+    </div>
+    <section class="about">
+        <div class="img">
+            <img src="img/aboutimg.jpg" alt="Our Bakery">
+        </div>
+        <div class="content">
+            <span>Welcome to Cake Delights</span>
+            <h3>Handcrafted with Love</h3>
+            <p>At Cake Delights, we create delicious, handcrafted cakes using only the finest ingredients. Our passion for baking shines through in every cake we make, from classic favorites to innovative new flavors that will delight your taste buds.</p>
+            <p>Founded in 2010, our bakery has grown from a small home kitchen to a beloved local institution. We take pride in our attention to detail and commitment to quality that keeps our customers coming back for every special occasion, celebration, or just because you deserve something sweet!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <h1 class="title">our <span>gallery</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="img/gallery1.jpg" alt="Cake Gallery 1">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share-alt"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/gallery2.jpg" alt="Cake Gallery 2">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share-alt"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/gallery3.jpg" alt="Cake Gallery 3">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share-alt"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/gallery4.jpg" alt="Cake Gallery 4">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share-alt"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/gallery5.jpg" alt="Cake Gallery 5">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share-alt"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/gallery6.jpg" alt="Cake Gallery 6">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share-alt"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="heading">
+        <h1>client's review</h1>
+    </div>
+
+    <div class="info-container">
+        <div class="info">
+            <img src="img/fastdelivery.jpg" alt="Fast Delivery">
+            <h3>fast delivery</h3>
+            <span>within 30 minutes</span>
+        </div>
+        <div class="info">
+            <img src="img/27-7.jpg" alt="24/7 Service">
+            <h3>24/7 available</h3>
+            <span>call us anytime</span>
+        </div>
+        <div class="info">
+            <img src="img/easypaymenet.jpg" alt="Easy Payment">
+            <h3>easy payment</h3>
+            <span>cash or credit</span>
+        </div>
+    </div>
+
+    <section class="review">
+        <div class="box">
+            <div class="user">
+                <img src="img/Sarah Johnson Realtor.jpg" alt="Client 1">
+                <div class="info">
+                    <h3>Sarah Johnson</h3>
+                    <span>happy client</span>
+                </div>
+            </div>
+            <p>The chocolate cake was absolutely divine! Moist, rich, and perfectly sweet. It was the highlight of our anniversary celebration.</p>
+        </div>
+        <div class="box">
+            <div class="user">
+                <img src="img/emily.jpg" alt="Client 2">
+                <div class="info">
+                    <h3>Michael Brown</h3>
+                    <span>happy client</span>
+                </div>
+            </div>
+            <p>I ordered a custom birthday cake and was blown away by both the design and taste. The buttercream was light and not too sweet - just perfect!</p>
+        </div>
+        <div class="box">
+            <div class="user">
+                <img src="img/Michael.jpg" alt="Client 3">
+                <div class="info">
+                    <h3>Emily Wilson</h3>
+                    <span>happy client</span>
+                </div>
+            </div>
+            <p>Their cupcakes are consistently delicious. I've tried several flavors and each one is better than the last. Highly recommend the red velvet!</p>
+        </div>
+        <div class="box">
+            <div class="user">
+                <img src="img/david.jpg" alt="Client 4">
+                <div class="info">
+                    <h3>David Thompson</h3>
+                    <span>happy client</span>
+                </div>
+            </div>
+            <p>The delivery was prompt and the cake arrived in perfect condition. The strawberry filling was fresh and flavorful. Will definitely order again!</p>
+        </div>
+        <div class="box">
+            <div class="user">
+                <img src="img/client5.jpg" alt="Client 5">
+                <div class="info">
+                    <h3>Jessica Lee</h3>
+                    <span>happy client</span>
+                </div>
+            </div>
+            <p>I've ordered from Cake Delights for three events now, and each time the cakes have been stunning and delicious. Their attention to detail is remarkable.</p>
+        </div>
+        <div class="box">
+            <div class="user">
+                <img src="img/jessica.jpg" alt="Client 6">
+                <div class="info">
+                    <h3>Robert Garcia</h3>
+                    <span>happy client</span>
+                </div>
+            </div>
+            <p>The gluten-free options are amazing! You'd never know they were gluten-free. My daughter with celiac disease was thrilled with her birthday cake.</p>
+        </div>
+    </section>
+
+    <div class="heading">
+        <h1>our blogs</h1>
+    </div>
+    <section class="blogs">
+        <h1 class="title">our <span>blogs</span> <a href="#">view all>>></a></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="img">
+                    <img src="img/blog1.jpg" alt="Blog 1">
+                </div>
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-calendar"></i>12 jan, 2025</a>
+                        <a href="#"><i class="fas fa-user"></i>by admin</a>
+                    </div>
+                    <h3>5 Tips for Choosing the Perfect Wedding Cake</h3>
+                    <p>Selecting your wedding cake can be overwhelming. Consider these key factors to find the perfect cake for your special day.</p>
+                    <a href="#" class="btn">read more...</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="img/blog2.jpg" alt="Blog 2">
+                </div>
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-calendar"></i>12 jan, 2025</a>
+                        <a href="#"><i class="fas fa-user"></i>by admin</a>
+                    </div>
+                    <h3>The Art of Cake Decorating: Trends for 2025</h3>
+                    <p>Discover the latest trends in cake decorating, from minimalist designs to bold geometric patterns and everything in between.</p>
+                    <a href="#" class="btn">read more...</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="img/blog3.jpg" alt="Blog 3">
+                </div>
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-calendar"></i>12 jan, 2025</a>
+                        <a href="#"><i class="fas fa-user"></i>by admin</a>
+                    </div>
+                    <h3>Gluten-Free Baking: Delicious Alternatives</h3>
+                    <p>Explore our guide to gluten-free baking with tips on alternative flours and techniques that deliver amazing results.</p>
+                    <a href="#" class="btn">read more...</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="heading">
+        <h1>contact us</h1>
+    </div>
+    <section class="contact">
+        <div class="icons-container">
+            <div class="icons">
+                <i class="fas fa-phone"></i>
+                <h3>our number</h3>
+                <p>+251 097 654 6533</p>
+                <p>+251 234 565 76</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-envelope"></i>
+                <h3>our email</h3>
+                <p>cakedelights@gmail.com</p>
+                <p>orders@cakedelights.com</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>our address</h3>
+                <p>123 Sweet Street, Jimma, Ethiopia</p>
+            </div>
+        </div>
+        <div class="row">
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <input type="text" placeholder="enter your name" class="box">
+                    <input type="text" placeholder="enter your email" class="box">
+                </div>
+                <div class="inputBox">
+                    <input type="text" placeholder="enter your number" class="box">
+                    <input type="text" placeholder="enter your subject" class="box">
+                </div>
+                <textarea placeholder="your message" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+            <iframe class="map" src="https://maps.app.goo.gl/qxEBUVGPinMEt4bR8" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <div class="space"></div>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>home</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>shop</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>about</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>review</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>blog</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>contact</a>
+            </div>
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>my order</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>my favorite</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>my wishlist</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>my account</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>terms or use</a>
+            </div>
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" placeholder="enter your email address">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+                <img src="img/payment.jpg" class="payments" alt="Payment Methods">
+            </div>
+        </div>
+    </section>
+
+    <section class="credit">created by Cake Delights || all rights reserved © 2025</section>
+    <script src="cake.js"></script>
+</body>
+</html>
