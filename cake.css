@@ -805,7 +805,7 @@ section {
 
 .credit {
     text-align: center;
-    background: var(--light-brown);
+    background: var(--brown);
     color: #fff;
     font-size: 2rem;
     padding: 2rem 1rem;
