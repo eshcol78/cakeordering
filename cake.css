@@ -775,7 +775,7 @@ section {
 }
 
 .footer .box-container .box a:hover {
-    color: var(--cream);
+    color:var(--brown);
 }
 
 .footer .box-container .box a:hover i {
